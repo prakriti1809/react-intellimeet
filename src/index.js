@@ -5,5 +5,4 @@ import App from './App'
 
 let app = document.getElementById('main')
 
-
-render(<App />, app)
+render(<App greeting='Hello World!'/>, app)
